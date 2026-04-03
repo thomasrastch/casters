@@ -26,6 +26,9 @@ func get_spawn_params() -> Dictionary:
 		"position": global_position,
 	}
 
+func is_local_player() -> bool:
+	return peer_id == multiplayer.get_unique_id()
+
 # Add our local camera and input controls 
 func _add_local_control() -> void:
 	var local_camera = $Player2DCamera

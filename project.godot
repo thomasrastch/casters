@@ -25,6 +25,11 @@ PeerManager="*res://scripts/multiplayer/network/peer_manager.gd"
 LobbyManager="*res://scripts/multiplayer/lobby/lobby_manager.gd"
 SceneManager="*res://scripts/core/scene_manager.gd"
 
+[display]
+
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [editor]
 
 version_control/plugin_name="GitPlugin"
