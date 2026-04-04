@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://4cen6k4ewwy1"]
+
+[ext_resource type="Script" uid="uid://ujbrsj07h1k1" path="res://scenes/level/2d/grid_display.gd" id="1_djj1h"]
+
+[node name="GridDisplay" type="Node2D" unique_id=793787789]
+script = ExtResource("1_djj1h")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=627108194]
+z_index = -1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 62.0
+offset_bottom = 62.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0.9521667, 0.59000003, 1)
